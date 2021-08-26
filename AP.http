@@ -1,0 +1,66 @@
+POST http://localhost:1337/api/users
+Content-Type: application/json
+
+{
+	"email" : "titi44", "password" : "alexis","email" : "alexis2@gmail.com"
+}
+
+
+###
+GET http://localhost:1337/api/administrator
+
+###
+GET http://localhost:1337/api/login
+
+###
+PUT http://localhost:1337/api/users/60a6da5508cd8a3e7857d1ea
+Content-Type: application/json
+
+{
+	"username":"Alexis"
+}
+
+
+###
+POST http://localhost:1337/api/login
+Content-Type: application/json
+
+{
+	"username": "titi5",
+	"password": "totodd"
+}
+
+###
+
+POST  http://localhost:1337/api/login
+Content-Type: application/json
+
+{
+	"username":"alexis",
+	"password":"alexis"
+}
+
+
+
+###
+GET http://localhost:1337/api/jeuxsms
+###
+POST  http://localhost:1337/api/jeuxsms
+Content-Type: application/json
+
+{
+	"name":"alexis",
+	"description":"alexis",
+	"dateLancement":898998998,
+	"datefin":888445445
+}
+
+
+###
+GET  http://localhost:1337/api/testemail
+
+
+
+###
+GET  http://localhost:1337/api/fetchTemplate
+
